@@ -1,0 +1,12 @@
+sources:
+  - name: supermache_databricks
+    database: surpermache  
+    schema: bronze  
+    tables:
+      - name: orders
+      - name: customers
+      - name: products
+      - name: stores
+      - name: employees
+      - name: order_items
+

@@ -1,0 +1,65 @@
+# ==========================================
+# SECRETS / ENVIRONMENT VARIABLES
+# ==========================================
+.env
+.env.*
+**/.env
+**/.env.*
+
+# ==========================================
+# DBT PROFILES (contient token / credentials)
+# ==========================================
+profiles.yml
+**/profiles.yml
+
+# ==========================================
+# AUTRES FICHIERS DE SECRETS
+# ==========================================
+secrets.yml
+**/secrets.yml
+secrets.yaml
+**/secrets.yaml
+credentials.json
+**/credentials.json
+
+# ==========================================
+# DATASETS
+# ==========================================
+data/
+dataset/
+datasets/
+**/data/
+**/dataset/
+**/datasets/
+
+# ==========================================
+# DBT GENERATED FILES
+# ==========================================
+target/
+**/target/
+
+logs/
+**/logs/
+
+dbt_packages/
+**/dbt_packages/
+
+# ==========================================
+# AIRFLOW
+# ==========================================
+config/airflow.cfg
+
+# ==========================================
+# PYTHON
+# ==========================================
+__pycache__/
+**/__pycache__/
+*.pyc
+
+# ==========================================
+# VIRTUAL ENVIRONMENTS
+# ==========================================
+.venv/
+venv/
+**/.venv/
+**/venv/

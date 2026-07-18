@@ -1,0 +1,22 @@
+
+
+version: 2
+
+models:
+  - name: product_technical
+    columns:
+      - name: product_id
+        data_tests:
+          - not_null
+          - unique:
+              config:
+                where: "price > 0"
+
+  - name: orders_technical
+    columns:
+      - name: order_id
+        data_tests:
+          - not_null
+          - unique:
+              config:
+                where: "total_amount > 0"
