@@ -3,7 +3,6 @@
 ## Architecture du projet
 
 ![Architecture du projet](architecture.png)
-Data Engineering Pipeline — CDC to Analytics-Ready Gold Layer
 
 # Data Engineering Pipeline — CDC to Analytics-Ready Gold Layer
 
